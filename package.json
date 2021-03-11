@@ -1,0 +1,23 @@
+{
+  "name": "exemplo-devops-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorsdj/exemplo-devops-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorsdj/exemplo-devops-01/issues"
+  },
+  "homepage": "https://github.com/juniorsdj/exemplo-devops-01#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
