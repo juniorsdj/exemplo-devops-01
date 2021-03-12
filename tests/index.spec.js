@@ -1,4 +1,4 @@
-const index = require('./../src/index')
+const index = require('./../src/helpers')
 describe('Testes automatizados', () => {
     describe('Função de soma deve retornar true', () => {
         it('should sum 1 + 1 = 2', () => {
