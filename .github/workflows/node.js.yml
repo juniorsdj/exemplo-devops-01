@@ -31,8 +31,6 @@ jobs:
     - name: Run test
       run: npm run test
     - name: Statements Badge Coverage
-      uses: luk-schweizer/jest-code-coverage-badge-action@v1.0.0
-      with:
-        coverage-type: statements
-        badge-label: statements 
-        kvaas-key-url: 'https://api.keyvalue.xyz/d7daadd0/coverage'
+      uses: willcaul/jest-github-action@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
