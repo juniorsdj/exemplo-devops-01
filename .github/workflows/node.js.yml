@@ -28,9 +28,7 @@ jobs:
           ${{ runner.OS }}-
     - name: Install dependencies
       run: npm install
-    - name: Run test
-      run: npm run test
-    - name: Statements Badge Coverage
+    - name: Run tests
       uses: willcaul/jest-github-action@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
