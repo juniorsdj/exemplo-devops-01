@@ -6,7 +6,7 @@ describe('Testes automatizados', () => {
             const b = 1 
             const result = index.soma(a, b)
 
-            expect(result).toBe(3)
+            expect(result).toBe(2)
 
         });
     });
